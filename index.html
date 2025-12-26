@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2> Student Registration Form</h2>
+
+    <form id="registrationForm">
+        <label>Name:</label>
+        <input type="text" id="name" placeholder="Enter your Name">
+        <div class="error" id="nameError"></div>
+
+    
+        <label>Email</label>
+        <input type="email" id="email" placeholder="Enter your Email">
+        <div class="error" id="emailError"></div>
+
+       
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter a strong password">
+        <div class="error" id="passwordError"></div>
+
+        <button type="submit" id="submitBtn" disabled>Register</button>
+    </form>
+
+    <script src="script.js"></script>
+       
+
+</body>
+</html>
